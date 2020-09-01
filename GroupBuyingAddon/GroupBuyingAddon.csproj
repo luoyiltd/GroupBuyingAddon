@@ -80,5 +80,11 @@
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GroupBuyingOrder\GroupBuyingOrder.csproj">
+      <Project>{0DF935E2-B42C-4728-9457-F0C757884128}</Project>
+      <Name>GroupBuyingOrder</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
