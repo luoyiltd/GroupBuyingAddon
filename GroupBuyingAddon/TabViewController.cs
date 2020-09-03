@@ -5,9 +5,9 @@ using Foundation;
 
 namespace GroupBuyingAddon
 {
-    public partial class ViewController : NSViewController
+    public partial class TabViewController : NSViewController
     {
-        public ViewController(IntPtr handle) : base(handle)
+        public TabViewController(IntPtr handle) : base(handle)
         {
         }
 
@@ -16,6 +16,8 @@ namespace GroupBuyingAddon
             base.ViewDidLoad();
 
             // Do any additional setup after loading the view.
+
+            //ProductOrder.DataSource = null;
         }
 
         public override NSObject RepresentedObject

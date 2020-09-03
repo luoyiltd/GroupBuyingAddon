@@ -1,6 +1,8 @@
-﻿namespace GroupBuyingOrder.Model
+﻿using Foundation;
+
+namespace GroupBuyingOrder.Model
 {
-    public class Order
+    public class Order : NSObject
     {
         public string ProductName { get; set; }
 

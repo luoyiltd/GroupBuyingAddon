@@ -72,9 +72,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="TabViewController.cs" />
+    <Compile Include="TabViewController.designer.cs">
+      <DependentUpon>TabViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

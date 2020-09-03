@@ -729,7 +729,7 @@
         <!--Orders-->
         <scene sceneID="vZA-rh-rXT">
             <objects>
-                <viewController title="Orders" id="sUx-75-H76" sceneMemberID="viewController">
+                <viewController title="Orders" id="sUx-75-H76" customClass="TabViewController" sceneMemberID="viewController">
                     <view key="view" id="Hpb-M7-LHy">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -970,6 +970,14 @@
                             </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="AcualPriceCol" destination="syH-HB-06n" id="Bnn-lm-U5x"/>
+                        <outlet property="CostCol" destination="b00-WU-goP" id="Cox-ZN-GSf"/>
+                        <outlet property="ProductNameCol" destination="P63-UE-hZO" id="0Oi-bJ-gXY"/>
+                        <outlet property="ProductOrder" destination="YGb-BH-j5g" id="2VO-M8-arf"/>
+                        <outlet property="QuantityCol" destination="aKY-mT-UaX" id="sXm-za-TRj"/>
+                        <outlet property="SalePriceCol" destination="EHi-0F-TtR" id="vBu-Ku-vie"/>
+                    </connections>
                 </viewController>
                 <customObject id="QUI-b8-VAZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -978,7 +986,7 @@
         <!--More...-->
         <scene sceneID="oEa-cR-EOu">
             <objects>
-                <viewController title="More..." id="AW3-Mq-T2R" sceneMemberID="viewController">
+                <viewController title="More..." id="AW3-Mq-T2R" customClass="TabViewController" sceneMemberID="viewController">
                     <view key="view" id="6wt-U5-R8J">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
