@@ -27,6 +27,8 @@
     <IncludeMonoRuntime>false</IncludeMonoRuntime>
     <UseSGen>true</UseSGen>
     <UseRefCounting>true</UseRefCounting>
+    <AOTMode>None</AOTMode>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,6 +44,8 @@
     <UseRefCounting>true</UseRefCounting>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <LinkMode>SdkOnly</LinkMode>
+    <AOTMode>None</AOTMode>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="GroupBuyingOrder\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -76,6 +81,8 @@
     <Compile Include="TabViewController.designer.cs">
       <DependentUpon>TabViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="GroupBuyingOrder\OrderDataSource.cs" />
+    <Compile Include="GroupBuyingOrder\OrderOutlineDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
